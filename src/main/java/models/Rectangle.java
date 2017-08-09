@@ -1,3 +1,5 @@
+package models;
+
 import java.util.ArrayList;
 
 /**
@@ -29,6 +31,10 @@ public class Rectangle {
 
     public boolean getShape(){
         return shape;
+    }
+
+    public int area() {
+        return height * width;
     }
 
     public boolean isRectSquare(){
